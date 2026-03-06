@@ -1,0 +1,123 @@
+body{
+  margin:0;
+  font-family:'Poppins',sans-serif;
+  background:linear-gradient(135deg,#9B4C0C,#5B1163,rgba(153, 110, 50, 1));
+  color:whitergba(108, 36, 162, 1);
+}
+section{
+background: rgba(255,255,255,0.1);
+backdrop-filter: blur(10px);
+padding:30px;
+margin:20px;
+border-radius:20px;
+box-shadow:0 0 20px rgba(0,0,0,0.3);
+}
+
+section:hover{
+transform: translateY(-10px);
+transition:0.4s;
+}
+
+.profile-img{
+width:150px;
+height:150px;
+border-radius:50%;
+object-fit:cover;
+box-shadow:0 0 20px brown(0,0,0,0.4);
+}
+
+.project-card{
+background:rgba(255,255,255,0.1);
+padding:20px;
+margin:15px;
+border-radius:15px;
+transition:0.3s;
+}
+
+.project-card:hover{
+transform:translateY(-10px);
+}
+
+.hero{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  color: black;
+
+}
+
+  background-size:cover{};
+  background-position:center{};
+
+body{
+background-image:url("/images/20260223_014425.jpg");
+background-size:cover;
+}
+
+.profile-img{
+  width:170px;
+  height:170px;
+  border-radius:50%;
+  object-fit:cover;
+  box-shadow:0 10px 30px rgba(0,0,0,0.5);
+  animation:float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+  0%{transform:translateY(0px);}
+  50%{transform:translateY(-15px);}
+  100%{transform:translateY(0px);}
+}
+
+.profile-img:hover{
+  transform:scale(2.1);
+  transition:0.4s;
+}
+.image-card{
+  background:rgba(255,255,255,0.1);
+  backdrop-filter:blur(15px);
+  padding:30px;
+  border-radius:25px;
+}
+
+.hero{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  color:white;
+
+  background:
+  linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+  url("images/background.jpg");
+
+  background-size:cover;
+  background-position:center;
+}
+
+nav{
+  position:fixed;
+  width:100%;
+  top:0;
+  background:rgba(0,0,0,0.6);
+  padding:15px;
+  backdrop-filter:blur(10px);
+  display:flex;
+  justify-content:center;
+  gap:30px;
+}
+
+nav a{
+  color:white;#8A841Be{};
+  text-decoration:none;
+  transition:0.3s;
+}
+
+nav a:hover{
+  color:#3319AB;
+}
